@@ -1,7 +1,16 @@
 #app {
     text-align: center;
+    background-color: red;
+    filter: opacity(1);
+    width: 800px;
+    margin: auto;
+
 }
 .characters {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.item img {
+   max-width: 200px;
 }
